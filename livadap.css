@@ -1,0 +1,234 @@
+body { 
+	font: 20px; 
+	font-family: "avenir";
+/*	font-family: 'Source Sans Pro', sans-serif;
+*/	margin: 0px;
+	height: 100%;
+	background-color: #F8FDFF;
+}
+
+#intro {
+	padding-bottom: 340px;
+	text-align: center;
+	width: 0 auto;
+}
+
+.hr {
+	width: 15%;
+	margin: 30px auto;
+	height: 2px;
+	background: rgba(225, 229, 235, 0.9);
+}
+
+a {
+	text-decoration: none;
+	color: rgba(194, 194, 197, 0.9);
+}
+
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+#name{
+	font-family: "Didot";
+	font-style: italic;
+	font-size: 60px;
+	padding-top: 240px;
+/*	color: #fff;*/
+}
+
+
+#quick_info {
+	padding-top: 1px;
+	width: 150px auto;
+	margin-right:25px;
+/*	margin-left:-40px;*/
+}
+
+
+#quick_info ul li{
+	font-family: "ArcherPro";
+	font-size: 15px;
+	display: inline;	
+	color: rgba(194, 194, 197, 0.9);
+	width: 115px;
+	height: 20px;
+}
+
+#quick_info ul {
+	display: inline-flex;
+	margin-right: 20px;
+}
+
+#contact_note {
+	color:#fff;
+	font-size: 35px;
+	font-family: "Eye Catching";
+	margin-top: -60px;
+	margin-left: -160px;
+	-webkit-transform: rotate(-10deg);
+
+}
+
+.contact:hover #contact_note	 {
+	color: #444;
+/*	transition-duration: .15s;
+	transition-timing-function: ease-in;
+	-webkit-backface-visibility: hidden;*/*/
+}
+
+#resume_note {
+	color:#fff;
+	font-size: 35px;
+	font-family: "Eye Catching";
+/*	margin-top: 50px;
+*/	-webkit-transform: rotate(-3deg);
+
+}
+
+.resume:hover #resume_note	 {
+	color: #444;
+/*	transition-duration: .15s;
+	transition-timing-function: ease-out;
+	-webkit-backface-visibility: hidden;*/*/
+}
+
+#social_note {
+	color:#fff;
+	font-size: 35px;
+/*	visibility: hidden;
+*/	font-family: "Eye Catching";
+	margin-right: -150px;
+	margin-top: -60px;
+	-webkit-transform: rotate(10deg);
+
+
+}
+
+.social:hover #social_note	 {
+	color: #444;
+/*	transition-duration: .15s;
+	visibility: visible;	transition-timing-function: ease-out;
+	-webkit-backface-visibility: hidden;*/
+}
+
+#key_note {
+	color:#444;
+	font-size: 35px;
+	visibility: visible;
+	padding-left: 60px;
+	font-family: "Eye Catching";
+	-webkit-transform: rotate(-10deg);
+}
+
+
+/*.shot:hover #key_note{
+	visibility: visible;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;
+	-webkit-backface-visibility: hidden;
+}*/
+
+.menu {
+	width:250px;
+	float: left;
+	height: 10%;
+	margin-bottom: 300px;
+}
+
+
+.logo {
+	padding-top:40px;
+	padding-left: 110px;
+}
+
+.logo:hover{
+	opacity:.9;
+}
+
+.header { 
+	border:0; 
+	padding-top:20px; 
+	padding-left: 100px;
+	font-size: 15px;
+	text-align: left;
+	font-family: "Didot";
+}
+
+
+.key {
+	padding-left: 100px;
+	font-family: "didot";
+	font-size: 15px;
+	color: #000;
+}
+
+
+.title:active{
+	color: #000;
+}
+
+
+.explain {
+	font-size:15px;
+	padding-right: 350px;
+	padding-left:100px;
+	color:#000;
+	font-family:"avenir";
+	text-align: left;
+}
+
+.grid { 
+	margin: 0 auto;
+	width: 680px;
+	height: 550px;
+	margin-top: 40px;
+}
+
+.flex-grid{
+	width: 800px;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-flow: row wrap
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+}
+
+.diamond{
+	order: <integer>;
+	flex-grow: <number>;
+	margin: auto;
+	align-self: center;
+}
+
+
+.color { 
+	opacity: 1; 
+	-webkit-filter: grayscale(100%); 
+    transition-duration: .2s;
+  	transition-timing-function: ease-out;
+    -webkit-backface-visibility: hidden;
+
+}
+
+.color:hover { 
+	opacity:1;
+	-webkit-filter: grayscale(0%); 
+	transition all 1s ease;
+}
+
+.footer_contact {
+	font-family: "ArcherPro";
+	font-size: 10px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+

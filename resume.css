@@ -1,0 +1,165 @@
+body { 
+	font: 20px; 
+	font-family: "ArcherPro";
+	margin: 0px;
+	height: 100%;
+	background-color: #F8FDFF;
+
+}
+
+.menu {
+	width:250px;
+	float: left;
+	padding-top:80px;
+	height: 50%;
+	padding-left: 60px;
+}
+
+.logo {
+	padding-top:40px;
+	padding-left: 110px;
+}
+
+.logo:hover{
+	opacity:.9;
+}
+
+.header { 
+	width:100%;
+	border:0; 
+	padding-top:20px; 
+	padding-left: 100px;
+	font-size: 20px;
+	text-align: left;
+	font-family: "Didot";
+}
+
+.key{
+	font-size: 12px;
+	padding-left: 100px;
+	color: #000;
+	padding-top: 6px;
+	font-family: "didot";
+}
+
+/*#key_note {
+	color:#444;
+	font-size: 30px;
+	font-family: "Eye Catching";
+/*	margin-top: -20px;
+*/	-webkit-transform: rotate(-15deg);
+
+}*/
+/*
+.keys:hover #key_note	 {
+	color: #444;
+	transition-duration: .15s;
+	transition-timing-function: ease-out;
+	-webkit-backface-visibility: hidden;*/
+}*/
+
+a:active {
+	text-decoration: none;
+
+}
+
+
+a:link {
+	color: #444;
+	font-size:14px; 
+	text-decoration: none;
+}
+
+a:visited{
+	color: #444;
+	text-decoration: none;
+}
+
+#section {
+	padding-bottom: 20px;
+}
+
+.grid_title {
+	font-family: Didot;
+	font-style:italic;
+	font-size: 10px;
+	color: rgba(194, 194, 197, 0.9);
+	padding-bottom: 8px;
+}
+
+@font-face {
+  font-family: 'ArcherPro';
+  src: url('fonts/ArcherPro/"ArcherPro-Medium.otf'); /* IE9 Compat Modes */
+  src: url('fonts/ArcherPro/"ArcherPro-Medium.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+   font-weight: 300;
+   font-style: normal;
+ }
+
+
+/*.education {
+	font-weight: 300;
+}
+
+.work_experience{
+	font-weight: bold;
+}*/
+
+
+a:hover {
+	color: #000;
+	transition-duration: .2s;
+	transition-timing-function: ease-out;
+	-webkit-backface-visibility: hidden;
+
+}
+
+/*.grid a:hover.work_experience {
+	color: #00B808;
+	transition-duration: .2s;
+	transition-timing-function: ease-out;
+	-webkit-backface-visibility: hidden;
+
+}*/
+
+#details {
+	color: #444;
+	font-size: 12.5px;
+	padding-bottom: 25px;
+}
+
+.title:hover{
+	color: #B9DEC7;
+	transition-duration: .2s;
+		transition-timing-function: ease-out;
+	-webkit-backface-visibility: hidden;
+}
+
+
+.title:active{
+	color: #000;
+}
+
+
+.grid { 
+	padding-left: 90px;
+	padding-top: 125px;
+	font-size: 13px;
+	text-align: justify;
+	width: 480px;
+	float:left;
+}
+
+
+.grid p{
+	text-indent: 40px;
+	margin-left: 0px;
+	margin-top: 1px;
+	margin-bottom: 0px;
+}
+
+#list {
+	padding-bottom: 100px;
+	margin: 0px;
+}
+
+
