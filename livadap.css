@@ -48,7 +48,7 @@ a:visited {
 
 
 #quick_info ul li{
-	font-family: "ArcherPro";
+	font-family: 'Cutive Mono' ;
 	font-size: 15px;
 	display: inline;	
 	color: rgba(194, 194, 197, 0.9);
@@ -226,7 +226,7 @@ a:visited {
 }
 
 .footer_contact {
-	font-family: "ArcherPro";
+	font-family: 'Cutive Mono' ;
 	font-size: 10px;
 	text-align: center;
 	margin-bottom: 30px;
