@@ -7,12 +7,20 @@ body {
 
 }
 
+p {
+		font-family: "ArcherPro";
+}
+
+.container {
+	margin-top: 50px;
+}
+
 .menu {
 	width:250px;
 	float: left;
 	padding-top:80px;
 	height: 50%;
-	padding-left: 60px;
+	padding-left: 0px;
 }
 
 .logo {
@@ -42,6 +50,12 @@ body {
 	font-family: "didot";
 }
 
+@media (min-width: @screen-sm-min) and (max-width: @screen-md-max) {
+    .key {
+        display: none !important;
+    }
+}
+
 /*#key_note {
 	color:#444;
 	font-size: 30px;
@@ -60,7 +74,7 @@ body {
 
 a:active {
 	text-decoration: none;
-
+	font-family: "ArcherPro";
 }
 
 
@@ -68,6 +82,7 @@ a:link {
 	color: #444;
 	font-size:14px; 
 	text-decoration: none;
+	font-family: "ArcherPro";
 }
 
 a:visited{
@@ -125,6 +140,7 @@ a:hover {
 	color: #444;
 	font-size: 12.5px;
 	padding-bottom: 25px;
+		font-family: "ArcherPro";
 }
 
 .title:hover{
@@ -141,12 +157,14 @@ a:hover {
 
 
 .grid { 
+	margin-left: 30px;
 	padding-left: 90px;
-	padding-top: 125px;
+	padding-top: 50px;
 	font-size: 13px;
 	text-align: justify;
 	width: 480px;
 	float:left;
+	max-width: 600px
 }
 
 
@@ -163,3 +181,6 @@ a:hover {
 }
 
 
+li {
+		font-family: "ArcherPro";
+}

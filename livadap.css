@@ -7,6 +7,7 @@ body {
 	background-color: #F8FDFF;
 }
 
+
 #intro {
 	padding-bottom: 340px;
 	text-align: center;
@@ -30,43 +31,68 @@ a:visited {
 	color: #000;
 }
 
+
 #name{
 	font-family: "Didot";
 	font-style: italic;
 	font-size: 60px;
 	padding-top: 240px;
-/*	color: #fff;*/
 }
 
 
 #quick_info {
-	padding-top: 1px;
-	width: 150px auto;
-	margin-right:25px;
-/*	margin-left:-40px;*/
+	padding-top: 20px;
+	width: 40%;
+	margin:0 auto;
+}
+
+#quick_info ul {
+	padding: 0;
+	margin: 0;
 }
 
 
 #quick_info ul li{
 	font-family: 'Cutive Mono' ;
 	font-size: 15px;
-	display: inline;	
 	color: rgba(194, 194, 197, 0.9);
-	width: 115px;
-	height: 20px;
+	padding: 10px;
+	list-style: none;
 }
 
-#quick_info ul {
-	display: inline-flex;
-	margin-right: 20px;
+#quick_info ul li a:hover {
+	text-decoration: none;
+}
+
+#resume_note {
+	color:#fff;
+	width:200px;
+	font-size: 35px;
+	font-family: "Eye Catching";
+	margin-left: -60px;
+	margin-top:-60px;
+	position: absolute;
+	z-index: -1;
+/*	margin-top: 50px;
+*/	-webkit-transform: rotate(10deg);
+
+}
+
+.resume:hover #resume_note	 {
+	color: #444;
+/*	transition-duration: .15s;
+	transition-timing-function: ease-out;
+	-webkit-backface-visibility: hidden;*/*/
 }
 
 #contact_note {
 	color:#fff;
 	font-size: 35px;
 	font-family: "Eye Catching";
-	margin-top: -60px;
-	margin-left: -160px;
+	margin-top: -50px;
+	margin-left: 10px;
+	position: absolute;
+	z-index: -1;
 	-webkit-transform: rotate(-10deg);
 
 }
@@ -78,30 +104,15 @@ a:visited {
 	-webkit-backface-visibility: hidden;*/*/
 }
 
-#resume_note {
-	color:#fff;
-	font-size: 35px;
-	font-family: "Eye Catching";
-/*	margin-top: 50px;
-*/	-webkit-transform: rotate(-3deg);
-
-}
-
-.resume:hover #resume_note	 {
-	color: #444;
-/*	transition-duration: .15s;
-	transition-timing-function: ease-out;
-	-webkit-backface-visibility: hidden;*/*/
-}
 
 #social_note {
 	color:#fff;
 	font-size: 35px;
-/*	visibility: hidden;
-*/	font-family: "Eye Catching";
-	margin-right: -150px;
-	margin-top: -60px;
-	-webkit-transform: rotate(10deg);
+	font-family: "Eye Catching";
+	margin-top: 10px;
+	position: absolute;
+	z-index: -1;
+	-webkit-transform: rotate(-10deg);
 
 
 }
@@ -117,7 +128,9 @@ a:visited {
 	color:#444;
 	font-size: 35px;
 	visibility: visible;
-	padding-left: 60px;
+	width: 100px;
+	position: absolute;
+	z-index: -1;
 	font-family: "Eye Catching";
 	-webkit-transform: rotate(-10deg);
 }
@@ -133,7 +146,6 @@ a:visited {
 .menu {
 	width:250px;
 	float: left;
-	height: 10%;
 	margin-bottom: 300px;
 }
 
@@ -183,7 +195,6 @@ a:visited {
 	margin: 0 auto;
 	width: 680px;
 	height: 550px;
-	margin-top: 40px;
 }
 
 .flex-grid{
