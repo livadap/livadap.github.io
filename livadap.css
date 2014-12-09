@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Didot;
+    src: url("fonts/Didot/Didot.ttc");
+}
+
+@font-face {
+	font-family: ArcherPro:
+	src: url("fonts/ArcherPro/ArcherPro-Light.otf");
+}
+
+
 body { 
 	font: 20px; 
 	font-family: "avenir";
@@ -9,7 +20,7 @@ body {
 
 
 #intro {
-	padding-bottom: 340px;
+	padding-bottom: 250px;
 	text-align: center;
 	width: 0 auto;
 }
@@ -35,8 +46,8 @@ a:visited {
 #name{
 	font-family: "Didot";
 	font-style: italic;
-	font-size: 60px;
-	padding-top: 240px;
+	font-size: 65px;
+	padding-top: 220px;
 }
 
 
@@ -53,8 +64,9 @@ a:visited {
 
 
 #quick_info ul li{
-	font-family: 'Cutive Mono' ;
-	font-size: 15px;
+		font-family: "ArcherPro";
+/*	font-family: 'Cutive Mono' ;
+*/	font-size: 15px;
 	color: rgba(194, 194, 197, 0.9);
 	padding: 10px;
 	list-style: none;
@@ -142,6 +154,143 @@ a:visited {
 	transition-timing-function: ease-out;
 	-webkit-backface-visibility: hidden;
 }*/
+
+/*.back, .drop {
+	margin-left: 50%;
+	margin-bottom: 40px;
+	display: block;
+}*/
+/*
+.back{
+	z-index: -1;
+	width: 25px;
+	height: 25px;
+	background: rgb(239,126,173);
+	background-size: 100%;
+    border-radius: 50%;
+    padding-top: 6px;
+}*/
+
+#drop {
+	margin-bottom: 50px;
+	margin-left: 50%;
+	display: block;
+    content: '';
+	height: 7px;
+	width: 7px;
+	border-bottom: 2px solid #4e4e4e;
+	border-left: 2px solid #4e4e4e;
+	transform: rotate(-45deg) scale(2);
+	-webkit-animation: bounceAround .8s 2s ease-out;
+
+}
+
+
+#drop:hover {
+	cursor: pointer;
+
+}
+
+p {
+	padding-top: 1em;
+	font-size: 17px;
+	font-family: "ArcherPro";
+}
+
+
+@-webkit-keyframes bounceAround {
+  30% {transform:translateY(15px) rotate(-45deg) scale(2);}
+  50%{transform:translateY(0px) rotate(-45deg) scale(2);}
+  70% {transform: translateY(15px) rotate(-45deg) scale(2);}
+}
+
+a[ class= "drop" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+}
+
+.project{
+	width:80%;
+	height:365px;
+	background: #4e4e4e;
+	padding:0;
+	margin: 0 auto;
+	border-radius: 1%;
+	border-top:6px solid #fff;
+	border-bottom: 6px solid #fff;
+	overflow:hidden;
+
+}
+
+.ios {
+	width: 19%;
+	position: relative;
+	top: 30px;
+	left: 233px;
+}
+
+.desktop{
+	width: 61%;
+	margin-top: -50px;
+
+}
+
+.browser{
+	width: 40%;
+	margin-top: 52px;
+	margin-right: -20px;
+	left: 30px;
+	margin-left: 124px;
+	margin-right: 20px;
+}
+
+.desc {
+	font-family: "ArcherPro";	
+	font-size: 18px;
+
+}
+
+.proj_title{
+	margin-top: 2.2em;
+	font-family: "ArcherPro";	margin-left: 3em;
+	font-size: 23px;
+	color: #fff;
+}
+
+.proj_filler{
+
+}
+
+
+#mta{
+	background-image: url("projects/mta/temp/6th-avenue-nyc.jpg");
+	background-size: 100%;
+	box-shadow: inset 100px 100px 0 1000px rgba(211, 213, 74, .9);
+}
+
+#medscape{
+	background-image: url("projects/medscape/temp/hos.jpeg");
+	background-size: 100%;
+	box-shadow: inset 100px 100px 0 1000px rgba(87, 107, 195, .8);
+}
+
+#metpet{
+	background-image: url("projects/metpet/temp/mountain.jpeg");
+	background-size: 100%;
+	box-shadow: inset 100px 100px 0 1000px rgba(152, 99, 187, .7);
+}
+
+#backtester {
+	background-image: url("projects/backtester/temp/work.jpg");
+	background-size: 100%;
+	box-shadow: inset 100px 100px 0 1000px rgba(221, 112, 92, .8);
+}
+
+#confluence {
+	background-image: url("projects/confluence/temp/comp.jpg");
+	background-size: 100%;
+	box-shadow: inset 100px 100px 0 1000px rgba(139, 196, 183, .8);
+}
 
 .menu {
 	width:250px;
@@ -236,10 +385,18 @@ a:visited {
 	transition all 1s ease;
 }
 
+footer {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 .footer_contact {
 	font-family: 'Cutive Mono' ;
 	font-size: 10px;
 	text-align: center;
 	margin-bottom: 30px;
+	margin-top: 30px;c
+}
 }
 
