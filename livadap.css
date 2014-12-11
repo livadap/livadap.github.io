@@ -194,7 +194,7 @@ a:visited {
 p {
 	padding-top: 1em;
 	font-size: 17px;
-	font-family: "ArcherPro";
+	font-family: "Helvetica";
 }
 
 
@@ -223,7 +223,6 @@ a[ class= "drop" ]:target ~ #main article.panel {
 .ios {
 	width: 19%;
 	margin-top: 30px;
-	margin-left: 224px;
 }
 
 .desktop{
@@ -236,63 +235,59 @@ a[ class= "drop" ]:target ~ #main article.panel {
 	width: 40%;
 	margin-top: 52px;
 	margin-right: -20px;
-	margin-left: 124px;
-}
-
-.desc {
-	font-family: "ArcherPro";	
-	font-size: 18px;
-
 }
 
 .proj_title{
-	margin-top: 2.2em;
-	font-family: "ArcherPro";	margin-left: 3em;
+	font-family: Gill Sans;	
 	font-size: 20px;
-	color: #fff;
+	color:#000;
+}
+.desc {
+	font-family: "HelveticaNeue-Thin";
+	font-size: 14px;
+	color:#000;
+
 }
 
-.proj_filler{
 
-}
 
 
 #mta{
 	background-image: url("projects/mta/temp/6th-avenue-nyc.jpg");
 	background-size: 100%;
-	box-shadow: inset 100px 100px 0 1000px rgba(20, 20, 20, 0.85);
-	border: 6px solid #978A19;
+	box-shadow: inset 100px 100px 0 1000px rgba(255, 2555, 255, 0.85);
+	border: 3px solid #FA3C3C;
 }
 
 #medscape{
 	background-image: url("projects/medscape/temp/hos.jpeg");
 	background-size: 100%;
-	box-shadow: inset 100px 100px 0 1000px rgba(20, 20, 20, 0.7);
-	border: 6px solid #195F97;
+	box-shadow: inset 100px 100px 0 1000px rgba(255, 255, 255, 0.85);
+	border: 3px solid #FA3C3C;
 
 }
 
 #metpet{
 	background-image: url("projects/metpet/temp/mountain.jpeg");
 	background-size: 100%;
-	box-shadow: inset 100px 100px 0 1000px rgba(20, 20, 20, 0.85);
-	border: 6px solid #6C1997;
+	box-shadow: inset 100px 100px 0 1000px rgba(255, 255, 255, 0.85);
+	border: 3px solid #FA3C3C;
 
 }
 
 #backtester {
 	background-image: url("projects/backtester/temp/work.jpg");
 	background-size: 100%;
-	box-shadow: inset 100px 100px 0 1000px rgba(20, 20, 20, 0.85);
-	border: 6px solid #BC5837;
+	box-shadow: inset 100px 100px 0 1000px rgba(255, 255, 255, 0.85);
+	border: 3px solid #BC5837;
 
 }
 
 #confluence {
 	background-image: url("projects/confluence/temp/comp.jpg");
 	background-size: 100%;
-	box-shadow: inset 100px 100px 0 1000px rgba(20, 20, 20, 0.8);
-	border: 6px solid #19976F;
+	box-shadow: inset 100px 100px 0 1000px rgba(255, 255, 255, 0.85);
+	border: 3px solid #19976F;
 
 }
 
