@@ -8,11 +8,11 @@ body {
 }
 
 p {
-		font-family: "ArcherPro";
+	font-family: "ArcherPro";
 }
 
 .container {
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 .menu {
@@ -24,7 +24,6 @@ p {
 }
 
 .logo {
-	padding-top:40px;
 	padding-left: 110px;
 }
 
@@ -46,7 +45,6 @@ p {
 	font-size: 8px;
 	padding-left: 100px;
 	color: #000;
-	padding-top: 6px;
 	font-family: "didot";
 }
 
@@ -77,7 +75,10 @@ p {
 	-webkit-backface-visibility: hidden;*/
 }*/
 
+
+
 a:active {
+	color: #444;
 	text-decoration: none;
 	font-family: "ArcherPro";
 }
@@ -85,7 +86,6 @@ a:active {
 
 a:link {
 	color: #444;
-	font-size:14px; 
 	text-decoration: none;
 	font-family: "ArcherPro";
 }
@@ -96,11 +96,16 @@ a:visited{
 }
 
 a:hover{
-	text-decoration: none !important;
+	color: #95D8B0;
+	text-decoration:  !important;
+	transition-duration: .2s;
+	transition-timing-function: ease-out;
+	-webkit-backface-visibility: hidden;
+
 }
 
 #section {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .grid_title {
@@ -129,14 +134,6 @@ a:hover{
 }*/
 
 
-a:hover {
-	color: #000;
-	transition-duration: .2s;
-	transition-timing-function: ease-out;
-	-webkit-backface-visibility: hidden;
-
-}
-
 /*.grid a:hover.work_experience {
 	color: #00B808;
 	transition-duration: .2s;
@@ -148,8 +145,8 @@ a:hover {
 #details {
 	color: #444;
 	font-size: 12.5px;
-	padding-bottom: 25px;
-		font-family: "ArcherPro";
+	padding-bottom: 15px;
+	font-family: "ArcherPro";
 }
 
 .title:hover{
