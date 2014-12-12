@@ -4,7 +4,7 @@
 }
 
 @font-face {
-	font-family: ArcherPro:
+	font-family: Archer Pro:
 	src: url("fonts/ArcherPro/ArcherPro-Light.otf") format("opentype");
 }
 
@@ -64,7 +64,7 @@ a:visited {
 
 
 #quick_info ul li{
-		font-family: "ArcherPro";
+		font-family: "Cutive Mono";
 /*	font-family: 'Cutive Mono' ;
 */	font-size: 15px;
 	color: rgba(194, 194, 197, 0.9);
@@ -147,6 +147,9 @@ a:visited {
 	-webkit-transform: rotate(-10deg);
 }
 
+p {
+	width:380px;
+}
 
 /*.shot:hover #key_note{
 	visibility: visible;
@@ -240,6 +243,7 @@ a:hover{
 	font-size: 12px;
 	color:#000;
 	padding-top: 1em;
+	letter-spacing: 1px;
 }
 
 .ios {
