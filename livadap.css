@@ -1,21 +1,21 @@
 @font-face {
     font-family: Didot;
-    src: url("fonts/Didot/Didot.ttc");
+    src: url("fonts/Didot/Didot.ttc") format("opentype");
 }
 
 @font-face {
 	font-family: ArcherPro:
-	src: url("fonts/ArcherPro/ArcherPro-Light.otf");
+	src: url("fonts/ArcherPro/ArcherPro-Light.otf") format("opentype");
 }
 
+@font-face {
+	font-family: Avenir:
+	src: url("fonts/Avenir/Avenir.ttc");
+}
 
-body { 
-	font: 20px; 
-	font-family: "avenir";
-/*	font-family: 'Source Sans Pro', sans-serif;
-*/	margin: 0px;
-	height: 100%;
-	background-color: #F8FDFF;
+@font-face {
+	font-family: "Helvetica Neue":
+	src: url("fonts/HelveticaNeue/HelveticaNeue.dfont");
 }
 
 
@@ -191,11 +191,6 @@ a:visited {
 
 }
 
-p {
-	padding-top: 1em;
-	font-size: 17px;
-	font-family: "Helvetica";
-}
 
 
 @-webkit-keyframes bounceAround {
@@ -225,7 +220,6 @@ a:hover{
 .project{
 	width:70%;
 	height:280px;
-	background: #4e4e4e;
 	margin: 0 auto;
 	margin-top: 40px;
 	margin-bottom: 10px;
@@ -235,7 +229,8 @@ a:hover{
 
 .proj_title{
 	margin-top: 3em;
-	font-family: "Avenir";	margin-left: 3em;
+	font-family: "Avenir";	
+	margin-left: 3em;
 	font-size: .89em;
 	color: #000;
 	letter-spacing: 3px;
@@ -244,11 +239,12 @@ a:hover{
 	font-family: "HelveticaNeue-Thin";
 	font-size: 12px;
 	color:#000;
+	padding-top: 1em;
 }
 
 .ios {
 	width: 15%;
-	margin-top: 15px;
+	margin-top: 30px;
 	margin-left: 144px;
 }
 
@@ -265,7 +261,7 @@ a:hover{
 /*	background-image: url("projects/mta/temp/6th-avenue-nyc.jpg");
 	background-size: 100%;*/
 	box-shadow: inset 100px 100px 0 1000px rgba(255, 2555, 255, 1);
-	border: 4px solid #978A19;
+	border: 2px solid #E1E317;
 	border-radius: .8%;
 }
 
@@ -273,7 +269,7 @@ a:hover{
 /*	background-image: url("projects/medscape/temp/hos.jpeg");
 	background-size: 100%;*/
 	box-shadow: inset 100px 100px 0 1000px rgba(255, 255, 255, 1);
-	border: 4px solid #000;
+	border: 2px solid #0562C6;
 	border-radius: .8%;
 
 }
@@ -282,7 +278,7 @@ a:hover{
 /*	background-image: url("projects/metpet/temp/mountain.jpeg");
 	background-size: 100%;*/
 	box-shadow: inset 100px 100px 0 1000px rgba(255, 255, 255, 1);
-	border: 4px solid #6C1997;
+	border: 2px solid #930C99;
 	border-radius: .8%;
 
 }
@@ -291,7 +287,7 @@ a:hover{
 /*	background-image: url("projects/backtester/temp/work.jpg");
 	background-size: 100%;*/
 	box-shadow: inset 100px 100px 0 1000px rgba(255, 255, 255, 1);
-	border: 4px solid #BC5837;
+	border: 2px solid #BC5837;
 	border-radius: .8%;
 
 }
@@ -300,7 +296,7 @@ a:hover{
 /*	background-image: url("projects/confluence/temp/comp.jpg");
 	background-size: 100%;*/
 	box-shadow: inset 100px 100px 0 1000px rgba(255, 255, 255, 1);
-	border: 4px solid #19976F;
+	border: 2px solid #19976F;
 	border-radius: .8%;
 
 }
@@ -312,14 +308,6 @@ a:hover{
 }
 
 
-.logo {
-	padding-top:40px;
-	padding-left: 110px;
-}
-
-.logo:hover{
-	opacity:.9;
-}
 
 .header { 
 	border:0; 
@@ -349,7 +337,7 @@ a:hover{
 	padding-right: 350px;
 	padding-left:100px;
 	color:#000;
-	font-family:"avenir";
+	font-family:"Avenir";
 	text-align: left;
 }
 
