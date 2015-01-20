@@ -1,0 +1,164 @@
+@font-face {
+    font-family: Avenir;
+    src: url("fonts/Avenir/Avenir.ttc");
+}
+
+.container{
+	margin-top: 8em;
+	width: 80% !important;
+}
+
+body {
+	font-family: "Avenir-Book" "Avenir Book" !important;
+
+}
+
+.col-md-6{
+	text-align: center;
+}
+
+.faded{
+	color:rgba(148, 146, 146, .5);
+	letter-spacing: .25em;
+	font-size: 10px;
+	padding-top: 3.5em;
+	padding-bottom: 3.5em;
+	margin-top: -3px;
+}
+
+
+.svg{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+/* Required to make image fluid in IE */
+
+img:not(.png) {
+  width: 100%;
+}				
+
+.foot{
+	width:200px; 
+	margin:auto; 
+	font-size: 10px;
+	color:#e5e4e4; 
+	letter-spacing:.25em; 
+	padding-bottom:50px;
+	float: center;
+}
+
+p{
+	font-family: Avenir;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 26px;
+	margin-bottom: 0px !important;
+}
+
+a:link{
+	color:#FF0000;
+	text-decoration: underline;
+
+}
+
+a:visited{
+	color:#FF0000;
+	text-decoration: underline;
+}
+
+a:hover{
+	color: #84F4DB !important;
+	transition-duration: .2s;
+	transition-timing-function: ease-out;
+}
+
+
+
+.square{
+	width:100% !important;
+	height:auto;
+	min-height: 280px;
+	border-radius: 3px;
+	background-color: #F9F8F8;
+	box-shadow: 2px 3px 5px rgba(0,0,0,.06);
+	overflow: hidden !important;
+	position: relative;
+}
+/*
+.square:hover {
+	background-color: rgba(148, 146, 146, .25);
+	transition: .5s ease-out;
+
+}*/
+
+
+.desc{
+	width: 57% !important;
+	line-height: 30px;
+	margin-top:70px; 
+	margin-bottom:200px;
+	display: inline;
+
+}
+
+.proj{
+	margin-top: 8% !important;
+	margin-right: 40px !important;
+
+}
+
+.title{
+	font-family: Didot;
+	font-style: italic;
+	font-size: 2.3em;
+	width:45% !important;
+}
+
+.date{
+	color: #BEBEBE;
+}
+
+
+.tag{
+	background-color: rgba(255,38,0,.8);
+	font-style: italic;
+	width:auto;
+	font-size: 11px;
+	color:rgba(255,255,255,.9);
+	padding: 0px 5px 0px 3px;
+	margin-bottom: 30px;
+	border-radius: 3px;
+	display: inline-block;
+
+}
+
+.browser{
+	padding: 3% 0% 2% 5%;
+	width:90% !important;
+}
+
+.ios{
+	overflow: hidden;
+	width: 54% !important;
+	position: absolute;
+	top: -210px;
+	left:110px;
+}
+
+@media screen and ( max-width: 700px ) {
+  .ios {
+    position: relative;
+  	height: ;
+	left:80px !important;
+	top:15px; 
+  }
+
+  .square{
+  	height: auto;
+  	margin-bottom: 4%;
+  }
+}
+
