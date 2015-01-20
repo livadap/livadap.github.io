@@ -47,7 +47,6 @@ img:not(.png) {
 	color:#e5e4e4; 
 	letter-spacing:.25em; 
 	padding-bottom:50px;
-	float: center;
 }
 
 p{
@@ -163,6 +162,6 @@ a:hover{
 }
 
 .prof:hover{
-	
+
 }
 
