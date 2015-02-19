@@ -3,17 +3,30 @@
     src: url("fonts/Avenir/Avenir.ttc");
 }
 
+@font-face {
+	font-family: "Helvetica Neue":
+	src: url("fonts/HelveticaNeue/HelveticaNeue.dfont");
+}
+
+
 .container{
 	margin-top: 8em;
-	width: 80% !important;
+	width: 85% !important;
+	margin-left: 7% !important;
 }
 
 body {
 	font-family: "Avenir-Book" "Avenir Book" !important;
-
+	background-color: #F9F9F9 !important;
+	border: 14px solid #E8E8E8;
+/*	#1c1c1c;*/
 }
 
 .col-md-6{
+	text-align: center;
+}
+
+.col-md-4{
 	text-align: center;
 }
 
@@ -23,31 +36,9 @@ body {
 	font-size: 10px;
 	padding-top: 3.5em;
 	padding-bottom: 3.5em;
-	margin-top: -3px;
+	margin-top: 35px;
 }
 
-
-.svg{
-  width: 100%;
-  margin: 0 auto;
-}
-
-
-
-/* Required to make image fluid in IE */
-
-img:not(.png) {
-  width: 100%;
-}				
-
-.foot{
-	width:200px; 
-	margin:auto; 
-	font-size: 10px;
-	color:#e5e4e4; 
-	letter-spacing:.25em; 
-	padding-bottom:50px;
-}
 
 p{
 	font-family: Avenir;
@@ -55,16 +46,20 @@ p{
 	font-size: 14px;
 	line-height: 26px;
 	margin-bottom: 3px !important;
-}
+	color:#1c1c1c;
+
+/*	#ececec;
+*/}
+
 
 a:link{
-	color:#FF0000;
+	color:rgba(255, 102, 102, 0.9);
 	text-decoration: underline;
 
 }
 
 a:visited{
-	color:#FF0000;
+	color:rgba(255, 102, 102, 0.9);
 	text-decoration: underline;
 }
 
@@ -77,14 +72,18 @@ a:hover{
 
 
 .square{
-	width:100% !important;
+	width:89% !important;
+	margin-left: 6%;
 	height:auto;
+	min-height: 350px !important;
 	min-height: 280px;
-	border-radius: 3px;
-	background-color: #F9F8F8;
+	border-radius: 5px;
+/*	background: #ececec;*/
+	/*202020*/
 	box-shadow: 2px 3px 5px rgba(0,0,0,.06);
 	overflow: hidden !important;
 	position: relative;
+
 }
 /*
 .square:hover {
@@ -94,12 +93,13 @@ a:hover{
 }*/
 
 
-.desc{
-	width: 57% !important;
-	line-height: 30px;
-	margin-top:50px; 
-	margin-bottom:200px;
-	display: inline;
+.info{
+	margin-top:70px; 
+	margin-bottom:75px;
+	color:#4D4D4D;
+	line-height: 40px;
+	text-align: left;
+	font-size: 1.4em;
 
 }
 
@@ -110,30 +110,35 @@ a:hover{
 }
 
 .title{
-	font-family: Didot;
-	font-style: italic;
-	font-size: 2.3em;
+/*	font-family: "HelveticaNeue-Light";
+
+*/	font-family: Avenir;
+	letter-spacing: .2em;
+	font-size: 2em;
 	width:45% !important;
+	margin-bottom: 50px;
 }
 
 .date{
 	color: #BEBEBE;
 }
 
-
 .tag{
-	background-color: rgba(255,38,0,.8);
+	background-color: rgba(118, 232, 207, 0.72);
+/*	rgba(255,38,0,.8);*/
 	font-style: italic;
 	width:auto;
 	font-size: 11px;
 	color:rgba(255,255,255,.9);
-	padding: 0px 5px 0px 3px;
-	margin: 5px 0px 30px 0px;
-	border-radius: 3px;
+	padding: 0px 0px 0px 3px;
+	margin: 5px 3px 30px 0px;
+	border-radius: 1px;
 	display: inline-block;
-
 }
 
+
+
+/*
 .browser{
 	padding: 3% 0% 2% 5%;
 	width:90% !important;
@@ -160,8 +165,15 @@ a:hover{
   	margin-bottom: 4%;
   }
 }
+*/
 
-.prof:hover{
-
+.foot{
+	width:100%; 
+	margin:auto; 
+	font-size: 10px;
+	color:#e5e4e4; 
+	letter-spacing:.25em; 
+	padding:200px 0px 50px 0px;
+	text-align: center;
 }
 
